@@ -32,7 +32,7 @@ button {
   background: crimson;
   top: 0;
   left: 0;
-  transform: translate(50vw, 50vh); /* centro inicial */
+  transform: translate(0,0);
 }
 
 .acc-values {
