@@ -33,9 +33,10 @@ button {
   top: 0;
   left: 0;
   transform: translate(0,0);
-  transition: transform 0.05s linear; /* muy suave */
-}
 
+  /* ANIMACIÓN SUAVE */
+  transition: transform 0.1s linear; /* 0.1s es rápido, ajusta para suavizar */
+}
 
 .acc-values {
   margin-top: 20px;
