@@ -26,7 +26,9 @@
             ],
             "styles": [
               "src/styles.css"
-            ]
+            ],
+           "baseHref": "/mi-app-sensores/",
+             "outputPath": "dist/sensormovil"
           },
           "configurations": {
             "production": {
@@ -85,8 +87,14 @@
               "src/styles.css"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

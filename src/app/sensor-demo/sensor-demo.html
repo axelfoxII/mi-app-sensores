@@ -1,0 +1,18 @@
+<div class="container">
+  <button (click)="requestPermission()">Activar sensores</button>
+
+  <p *ngIf="sensorActive" class="active-message">
+    ✅ Sensores activados
+  </p>
+
+  <div 
+    class="ball" 
+    [ngStyle]="{ 'transform': 'translate(calc(50vw + ' + posX + 'px), calc(50vh + ' + posY + 'px))' }">
+  </div>
+
+  <p class="acc-values">
+    X: {{accX | number:'1.1-2'}} |
+    Y: {{accY | number:'1.1-2'}} |
+    Z: {{accZ | number:'1.1-2'}}
+  </p>
+</div>
