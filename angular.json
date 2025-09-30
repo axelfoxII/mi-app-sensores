@@ -28,7 +28,7 @@
               "src/styles.css"
             ],
            "baseHref": "/mi-app-sensores/",
-             "outputPath": "dist/sensormovil"
+           "outputPath": "dist/sensormovil"
           },
           "configurations": {
             "production": {

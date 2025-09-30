@@ -1,9 +1,12 @@
 <div class="container">
   <button (click)="requestPermission()">Activar sensores</button>
 
-  <p *ngIf="sensorActive" class="active-message">
-    ✅ Sensores activados
-  </p>
+  @if (sensorActive) {
+    <p class="active-message">
+      ✅ Sensores activados
+    </p>
+
+  }
 
   <div 
     class="ball" 
